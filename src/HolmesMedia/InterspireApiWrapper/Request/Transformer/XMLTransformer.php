@@ -22,6 +22,8 @@ class XMLTransformer extends AbstractTransformer
             $detailsNode->appendChild($domXml->createElement($k, $v));
         }
 
+        $detailsNode->appendChild($domXml->createElement('add_to_autoresponders', 'true'));
+
         $xmlRequest->appendChild($detailsNode);
         $domXml->appendChild($xmlRequest);
 
