@@ -2,7 +2,7 @@
     "name": "holmesmedia/interspire-api-wrapper",
     "require": {
         "php": ">=5.3.0",
-        "guzzlehttp/guzzle": "~4.0"
+        "guzzlehttp/guzzle": "~5.3"
     },
     "authors": [
         {
@@ -10,7 +10,7 @@
             "email": "adrian.ciolek@holmesmedia.co.uk"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
             "HolmesMedia": "src/"
